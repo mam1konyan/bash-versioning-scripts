@@ -2,9 +2,14 @@
   "author": "Paruyr Mamikonyan",
   "name": "bash-versioning-scripts",
   "version": "1.0.0",
-  "description": "Versioning system scripts w/ awesome prompt & emojis ^^",
+  "description": "Versioning system scripts for npm packages w/ awesome prompt & some emojis ^_^",
   "main": "./lib/index.js",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "publish-module": "./scripts/version.sh && npm run build && ./scripts/publish.sh"
+  },
   "dependencies": {
+    "webpack": "^4.5.0"
   }
 }
