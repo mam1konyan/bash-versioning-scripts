@@ -1,7 +1,10 @@
 {
-  "name": "$name$",
-  "version": "$version$",
+  "author": "Paruyr Mamikonyan",
+  "name": "bash-versioning-scripts",
+  "version": "1.0.0",
+  "description": "Versioning system scripts w/ awesome prompt & emojis ^^",
+  "main": "./lib/index.js",
+  "license": "MIT",
   "dependencies": {
-    $END$
   }
 }
